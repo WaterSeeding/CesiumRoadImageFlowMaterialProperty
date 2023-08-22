@@ -2,8 +2,8 @@
 
 > 本文描述了如何在 Cesium.js 自定义一个 MaterialProperty，并展示效果。
 >
-> - [查看地址](https://cesium-road-image-flow-material.vercel.app/)
-> - [仓库地址](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial)
+> - [查看地址](https://cesium-road-image-flow-material-property.vercel.app/)
+> - [仓库地址](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterialProperty)
 
 ![Material](./md/1.gif)
 
