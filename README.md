@@ -232,6 +232,14 @@ Cesium.Material._materialCache.addMaterial("RoadImageFlowMaterialProperty", {
 });
 ```
 
+在 RoadImageFlowMaterialSource 中， material.diffuse 入射光。color 这个变量，来源于之前 fabric 里面 uniforms 的值。
+
+```tsx
+material.diffuse = colorImage.rgb * 1.5;
+```
+
+在这里，控制的效果是这个颜色的亮度，把 1.5 改成 0.5 它会明显变得更暗。如果把 1.5 改成 3 或者 6，明显可以看到颜色更亮了。
+
 ![Material](./md/5.png)
 
 <br />
@@ -240,3 +248,5 @@ Cesium.Material._materialCache.addMaterial("RoadImageFlowMaterialProperty", {
 
 - [Cesium](https://cesium.com/)
 - [Cesium Documentation](https://cesium.com/docs/)
+- [https://github.com/CesiumGS/cesium/wiki/Fabric](https://github.com/CesiumGS/cesium/wiki/Fabric)
+- [Cesium.js 中如何自定义 Material 材质效果？](https://juejin.cn/post/7269726256327835705)
